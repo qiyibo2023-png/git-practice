@@ -1,0 +1,15 @@
+---
+title: "My First Quarto Practice"
+format: html
+editor: visual
+---
+
+\# Introduction
+
+\`\``{r}#| echo: truesummary(cars)`\`\`\`
+
+\# Scatterplot\
+\
+\`\``{r}#| label: fig-cars#| fig-cap: "Relationship between speed and stopping distance"plot(cars$speed, cars$dist)`\`\`\`\
+\
+As shown in \@fig-cars, stopping distance increases as speed increases.
